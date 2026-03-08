@@ -1,0 +1,66 @@
+2024-10-16 20:29:30 - Starting PharmacyApplication using Java 22 with PID 21768 (D:\Pharmacy\target\classes started by bshaj in D:\Pharmacy)
+2024-10-16 20:29:30 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-16 20:29:30 - No active profile set, falling back to 1 default profile: "default"
+2024-10-16 20:29:30 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-16 20:29:30 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-16 20:29:31 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-16 20:29:31 - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2024-10-16 20:29:32 - Tomcat initialized with port 9081 (http)
+2024-10-16 20:29:32 - Initializing ProtocolHandler ["http-nio-9081"]
+2024-10-16 20:29:32 - Starting service [Tomcat]
+2024-10-16 20:29:32 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-16 20:29:32 - Initializing Spring embedded WebApplicationContext
+2024-10-16 20:29:32 - Root WebApplicationContext: initialization completed in 1862 ms
+2024-10-16 20:29:32 - HikariPool-1 - Starting...
+2024-10-16 20:29:32 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-16 20:29:32 - HikariPool-1 - Start completed.
+2024-10-16 20:29:32 - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-16 20:29:33 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-16 20:29:33 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-16 20:29:33 - HHH000026: Second-level cache disabled
+2024-10-16 20:29:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-16 20:29:33 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-16 20:29:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-16 20:29:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16 20:29:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-16 20:29:35 - LiveReload server is running on port 35729
+2024-10-16 20:29:35 - Starting ProtocolHandler ["http-nio-9081"]
+2024-10-16 20:29:35 - Tomcat started on port 9081 (http) with context path '/'
+2024-10-16 20:29:35 - Started PharmacyApplication in 5.141 seconds (process running for 9.18)
+2024-10-16 20:30:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16 20:30:03 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-16 20:30:03 - HikariPool-1 - Shutdown initiated...
+2024-10-16 20:30:03 - HikariPool-1 - Shutdown completed.
+2024-10-16 20:30:16 - Starting PharmacyApplication using Java 22 with PID 23340 (D:\Pharmacy\target\classes started by bshaj in D:\Pharmacy)
+2024-10-16 20:30:16 - Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-16 20:30:16 - No active profile set, falling back to 1 default profile: "default"
+2024-10-16 20:30:16 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-16 20:30:16 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-16 20:30:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-16 20:30:17 - Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+2024-10-16 20:30:18 - Tomcat initialized with port 9081 (http)
+2024-10-16 20:30:18 - Initializing ProtocolHandler ["http-nio-9081"]
+2024-10-16 20:30:18 - Starting service [Tomcat]
+2024-10-16 20:30:18 - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-16 20:30:18 - Initializing Spring embedded WebApplicationContext
+2024-10-16 20:30:18 - Root WebApplicationContext: initialization completed in 1695 ms
+2024-10-16 20:30:18 - HikariPool-1 - Starting...
+2024-10-16 20:30:18 - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-16 20:30:18 - HikariPool-1 - Start completed.
+2024-10-16 20:30:18 - H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-16 20:30:18 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-16 20:30:18 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-16 20:30:18 - HHH000026: Second-level cache disabled
+2024-10-16 20:30:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-16 20:30:19 - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-16 20:30:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-16 20:30:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16 20:30:20 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-16 20:30:20 - LiveReload server is running on port 35729
+2024-10-16 20:30:20 - Starting ProtocolHandler ["http-nio-9081"]
+2024-10-16 20:30:20 - Tomcat started on port 9081 (http) with context path '/'
+2024-10-16 20:30:20 - Started PharmacyApplication in 4.869 seconds (process running for 5.762)
+2024-10-16 20:30:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-16 20:30:23 - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-16 20:30:23 - HikariPool-1 - Shutdown initiated...
+2024-10-16 20:30:23 - HikariPool-1 - Shutdown completed.

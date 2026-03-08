@@ -1,0 +1,35 @@
+2024-10-17T08:38:10.399+05:30  INFO 29948 --- [Pharmacy] [restartedMain] c.example.Pharmacy.PharmacyApplication   : Starting PharmacyApplication using Java 22 with PID 29948 (D:\Pharmacy\target\classes started by bshaj in D:\Pharmacy)
+2024-10-17T08:38:10.401+05:30 DEBUG 29948 --- [Pharmacy] [restartedMain] c.example.Pharmacy.PharmacyApplication   : Running with Spring Boot v3.3.1, Spring v6.1.10
+2024-10-17T08:38:10.402+05:30  INFO 29948 --- [Pharmacy] [restartedMain] c.example.Pharmacy.PharmacyApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T08:38:10.480+05:30  INFO 29948 --- [Pharmacy] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-17T08:38:10.529+05:30  INFO 29948 --- [Pharmacy] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-17T08:38:11.257+05:30  INFO 29948 --- [Pharmacy] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17T08:38:11.317+05:30  INFO 29948 --- [Pharmacy] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2024-10-17T08:38:11.971+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9081 (http)
+2024-10-17T08:38:11.984+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-17T08:38:11.984+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-10-17T08:38:12.123+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-17T08:38:12.123+05:30  INFO 29948 --- [Pharmacy] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1593 ms
+2024-10-17T08:38:12.190+05:30  INFO 29948 --- [Pharmacy] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T08:38:12.410+05:30  INFO 29948 --- [Pharmacy] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-10-17T08:38:12.411+05:30  INFO 29948 --- [Pharmacy] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T08:38:12.424+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-ui'. Database available at 'jdbc:h2:mem:testdb'
+2024-10-17T08:38:12.605+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T08:38:12.688+05:30  INFO 29948 --- [Pharmacy] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-10-17T08:38:12.734+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T08:38:13.110+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-17T08:38:13.172+05:30  WARN 29948 --- [Pharmacy] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17T08:38:14.068+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T08:38:14.128+05:30  INFO 29948 --- [Pharmacy] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17T08:38:14.440+05:30  WARN 29948 --- [Pharmacy] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17T08:38:14.740+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-17T08:38:14.839+05:30  INFO 29948 --- [Pharmacy] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9081 (http) with context path '/'
+2024-10-17T08:38:14.849+05:30  INFO 29948 --- [Pharmacy] [restartedMain] c.example.Pharmacy.PharmacyApplication   : Started PharmacyApplication in 5.232 seconds (process running for 5.909)
+2024-10-17T08:38:23.013+05:30  INFO 29948 --- [Pharmacy] [http-nio-9081-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-17T08:38:23.013+05:30  INFO 29948 --- [Pharmacy] [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-17T08:38:23.024+05:30  INFO 29948 --- [Pharmacy] [http-nio-9081-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2024-10-17T08:38:29.681+05:30  INFO 29948 --- [Pharmacy] [http-nio-9081-exec-3] c.e.Pharmacy.Service.PatientService      : List of Patients
+2024-10-17T08:39:04.714+05:30  INFO 29948 --- [Pharmacy] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17T08:39:04.729+05:30  WARN 29948 --- [Pharmacy] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-10-17T08:39:04.735+05:30  INFO 29948 --- [Pharmacy] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-17T08:39:04.738+05:30  INFO 29948 --- [Pharmacy] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
